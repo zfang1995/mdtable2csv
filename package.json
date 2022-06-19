@@ -1,0 +1,19 @@
+{
+  "name": "mdtable2csv",
+  "version": "1.0.0",
+  "description": "convert markdown table to CSV format.",
+  "main": "mdTable2CSV.js",
+  "scripts": {
+    "test": "node mdTable2CSV.js ./test/ 1.md"
+  },
+  "keywords": [
+    "markdown",
+    "CSV",
+    "table"
+  ],
+  "author": "sofa",
+  "license": "ISC",
+  "dependencies": {
+    "fs-jetpack": "^4.3.1"
+  }
+}
