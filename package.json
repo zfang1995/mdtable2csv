@@ -4,7 +4,7 @@
   "description": "convert markdown table to CSV format.",
   "main": "mdTable2CSV.js",
   "scripts": {
-    "test": "node mdTable2CSV.js ./test/ 1.md"
+    "test": "node mdTable2CSV.js readme.md ./test/*.md ./test/subdir/"
   },
   "keywords": [
     "markdown",

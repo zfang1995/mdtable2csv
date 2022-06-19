@@ -12,7 +12,7 @@
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}\\mdTable2CSV.js",
-      "args": ["./test", "1.md"]
+      "args": ["./test/*.md", "readme.md", "1.md", "./test/subdir"]
     }
   ]
 }
